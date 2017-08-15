@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>My Heading</h1>
+<form action="none">
+	<input list="browsers" name="browser">
+	<datalist id="browsers">
+		<option value="chrome">
+		<option value="internet explorer">
+		<option value="fire box">
+		<option value="safari">
+		</datalist><br>
+<input type="Submit">
+</form>
+<p><b>Note:<b>The datalist tag is not supported in safir or IE9</p>
+<form action="none">
+	Birthday:
+	Enter Your Date Before 2020-01-01 After 1987-01-01<br>
+	<input type="date" name="Birthday" max="2020-01-01" min="1987-01-01"><br><br>
+	<input type="Submit" value="Enter">
+</form>
+<form action="none">
+	Birthday date and time:
+	<input type="datetime-local" name="bday time">
+    <input type="Submit" value="Send">
+</form>
+<form action="none">
+Quantity (between 1 and 10 ):
+<input type="number" name="quantity" min="1" max="10">	
+<input type="Submit" >
+
+</form>
+</body>
+</html>
